@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/main_background"
-    tools:context=".MainActivity">
+    tools:context=".RegisterActivity">
 
     <TextView
-        android:id="@+id/textViewTitle"
+        android:id="@+id/textViewRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_title"
@@ -20,4 +20,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.242" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="144dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="101dp"
+        app:layout_constraintEnd_toEndOf="@+id/textViewRegister"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/textViewRegister"
+        app:layout_constraintTop_toBottomOf="@+id/textViewRegister"
+        app:srcCompat="@drawable/icon_dollar_24_white" />
 </androidx.constraintlayout.widget.ConstraintLayout>
